@@ -146,7 +146,7 @@ L Device:C C2
 U 1 1 62B22621
 P 5575 4125
 F 0 "C2" H 5690 4171 50  0000 L CNN
-F 1 "10nF" H 5690 4080 50  0000 L CNN
+F 1 "100nF" H 5690 4080 50  0000 L CNN
 F 2 "benjiaomodular:Capacitor_Rect_L7.2mm_W2.5mm_P5.00mm" H 5613 3975 50  0001 C CNN
 F 3 "~" H 5575 4125 50  0001 C CNN
 	1    5575 4125
@@ -225,28 +225,9 @@ Wire Wire Line
 	6325 3350 6450 3350
 Connection ~ 5575 4325
 NoConn ~ 6450 3150
-$Comp
-L Connector:Barrel_Jack J1
-U 1 1 62B36494
-P 1300 3425
-F 0 "J1" H 1357 3750 50  0000 C CNN
-F 1 "Barrel_Jack" H 1357 3659 50  0000 C CNN
-F 2 "" H 1350 3385 50  0001 C CNN
-F 3 "~" H 1350 3385 50  0001 C CNN
-	1    1300 3425
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2275 2650 1725 2650
-Wire Wire Line
-	1725 2650 1725 3325
-Wire Wire Line
-	1725 3325 1600 3325
 Connection ~ 2275 2650
-Wire Wire Line
-	1600 3525 1725 3525
-Wire Wire Line
-	1725 3525 1725 4325
 Wire Wire Line
 	1725 4325 2175 4325
 Connection ~ 2175 4325
@@ -302,4 +283,19 @@ F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 5750 3050 50  0001 C CNN
 	1    4900 3450
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 62DB45A2
+P 1725 3550
+F 0 "BT1" H 1425 3625 50  0000 L CNN
+F 1 "Battery" H 1375 3550 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" V 1725 3610 50  0001 C CNN
+F 3 "~" V 1725 3610 50  0001 C CNN
+	1    1725 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1725 2650 1725 3350
+Wire Wire Line
+	1725 3650 1725 4325
 $EndSCHEMATC
