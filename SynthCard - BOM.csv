@@ -1,0 +1,11 @@
+Reference, Quantity, Value, Footprint, Datasheet, Type, Manufacturers Name, Manufacturers Part Number, Part Description, Package
+BT1 ,1,"Battery","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","","Through-hole","","","",""
+C1 ,1,"10nF","benjiaomodular:Capacitor_Rect_L7.2mm_W2.5mm_P5.00mm","","Through-hole","KEMET","MMK5103K50J01L4BULK","Film Capacitors 50volts 0.01uF 10% LS 5mm",""
+C2 ,1,"100nF","benjiaomodular:Capacitor_Rect_L7.2mm_W2.5mm_P5.00mm","","Through-hole","KEMET","MMK5104K50J01L4BULK","Film Capacitors 50volts 0.1uF 10% LS 5mm",""
+C3 ,1,"10uF","benjiaomodular:Capacitor_Radial_D5.0mm_P2.5mm","","Through-hole","Nichicon","UVR1E100MDD1TD","Aluminum Electrolytic Capacitors - Radial Leaded 25volts 10uF",""
+D1 ,1,"5MM LED","LED_THT:LED_D5.0mm","","Through-hole","","","",""
+J2 ,1,"AudioJack2_SwitchT","benjiaomodular:AudioJack_3.5mm","","Through-hole","Tayda Electronics","PJ-3001F","",""
+R1 ,1,"1k","benjiaomodular:Resistor_L6.3mm_D2.5mm_P7.62mm_Horizontal","","Through-hole"," KOA Speer","MF1/4DCT26A1001F","",""
+R2 ,1,"10k","benjiaomodular:Resistor_L6.3mm_D2.5mm_P7.62mm_Horizontal","","Through-hole"," KOA Speer","MF1/4DC1002F","",""
+RV1 RV2 ,2,"500k","benjiaomodular:Potentiometer_RV09","","Through-hole","Alpha (Taiwan) ","RV09AF-40-20K-B500K","",""
+U1 U2 ,2,"NE555P","Package_DIP:DIP-8_W7.62mm","http://www.ti.com/lit/ds/symlink/ne555.pdf","Through-hole","Texas Instruments","NE555P","Timers & Support Products ","PDIP-8"
